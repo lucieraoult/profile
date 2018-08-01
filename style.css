@@ -137,6 +137,7 @@ td a:hover {
   -moz-animation-delay: 1s;
   animation: table 2s ease-out forwards;
   animation-delay: 1s;
+  opacity: 0;
 }
 
 @keyframes image {
