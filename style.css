@@ -152,9 +152,9 @@ td a:hover {
 }
 
 .second-fade {
-  -webkit-animation: fadein 8s;
-  -moz-animation: fadein 8s;
-  animation: fadein 8s;
+  -webkit-animation: fadein 12s;
+  -moz-animation: fadein 12s;
+  animation: fadein 12s;
 }
 
 @keyframes fadein {
