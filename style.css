@@ -131,10 +131,24 @@ td a:hover {
   background-size: cover;
   width: 2400px;
   margin-top: 0;
-
   -webkit-animation: fadein 5s;
   -moz-animation: fadein 5s;
   animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .second-fade {
@@ -148,13 +162,11 @@ td a:hover {
     to   { opacity: 1; }
 }
 
-/* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
