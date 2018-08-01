@@ -131,30 +131,12 @@ td a:hover {
   background-size: cover;
   width: 2400px;
   margin-top: 0;
-  /*-webkit-animation: fadein 5s;
-  -moz-animation: fadein 5s;
-  animation: fadein 5s;*/
 }
 
-/*@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}*/
-
-.second-fade {
-  -webkit-animation: fadein 12s;
-  -moz-animation: fadein 12s;
-  animation: fadein 12s;
+.first, .second-fade {
+  -webkit-animation: fadein 6s;
+  -moz-animation: fadein 6s;
+  animation: fadein 6s;
 }
 
 @keyframes fadein {
