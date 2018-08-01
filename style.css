@@ -131,6 +131,9 @@ td a:hover {
   background-size: cover;
   width: 2400px;
   margin-top: 0;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 .second-fade {
