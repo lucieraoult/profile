@@ -132,39 +132,26 @@ td a:hover {
   width: 2400px;
   margin-top: 0;
 
-  -webkit-animation-delay: 3s;
-  -moz-animation: image 4s ease-out forwards;
-  -moz-animation-delay: 3s;
-  animation: table 4s ease-out forwards;
-  animation-delay: 3s;
-  opacity: 0;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  animation: fadein 2s;
 }
 
-@keyframes image {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-@-webkit-keyframes image {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-@-moz-keyframes image {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .fab {
