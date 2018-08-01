@@ -132,9 +132,15 @@ td a:hover {
   width: 2400px;
   margin-top: 0;
 
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-  animation: fadein 4s;
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  animation: fadein 5s;
+}
+
+.second-fade {
+  -webkit-animation: fadein 8s;
+  -moz-animation: fadein 8s;
+  animation: fadein 8s;
 }
 
 @keyframes fadein {
