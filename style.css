@@ -131,12 +131,12 @@ td a:hover {
   background-size: cover;
   width: 2400px;
   margin-top: 0;
-  -webkit-animation: fadein 5s;
+  /*-webkit-animation: fadein 5s;
   -moz-animation: fadein 5s;
-  animation: fadein 5s;
+  animation: fadein 5s;*/
 }
 
-@keyframes fadein {
+/*@keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
@@ -149,7 +149,7 @@ td a:hover {
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+}*/
 
 .second-fade {
   -webkit-animation: fadein 12s;
