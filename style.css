@@ -133,10 +133,10 @@ td a:hover {
   margin-top: 0;
 }
 
-.first, .second-fade {
-  -webkit-animation: fadein 6s;
-  -moz-animation: fadein 6s;
-  animation: fadein 6s;
+.second-fade {
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  animation: fadein 5s;
 }
 
 @keyframes fadein {
